@@ -1,0 +1,115 @@
+#body {
+    background-color:rgb(193, 193, 112) ;
+}
+
+#nav{
+    background-color: beige;
+}
+
+#footer{
+    background-color: beige;
+}
+
+#titulo1, #titulo2, #titulo3, #titulo4, #titulo5 {
+    color: rgb(81, 28, 131);
+    
+}
+
+#section1{
+    background-color: rgb(193, 193, 112);
+    
+}
+
+#section2{
+    background-color: rgb(193, 193, 112);
+}
+
+#section3{
+    background-color: rgb(193, 193, 112);
+}
+
+#section4{
+    background-color: rgb(193, 193, 112);
+}
+
+#div1, #div2, #div3, #div4 
+{
+margin: auto;
+
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height:55px;
+    bottom:30px;
+    right: 30px;
+    background:#0df053 ;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: opx 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+    
+    }
+    
+    .btn-wsp:hover{
+        text-decoration: none;
+        background:#fff;
+        color: #0df053
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; /* Esto alinea el texto al centro */
+        height: 100%; /* Asegura que el contenido use toda la altura disponible */
+      }
+
+      
+  .form-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+
+figure img {
+  max-width: 100%;   /* La imagen no será más ancha que su contenedor */
+  height: auto;      /* Mantiene la proporción original de la imagen */
+}
